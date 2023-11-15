@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Home</title>
+    <link rel="stylesheet" href="index/assets/styleindex.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light gradient-bg shadow-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#"> <img src="assets/img/logo1.png" alt="" width="35" />Kelompok 6 </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portofolio.html">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="aboutUs.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="todos.html">Todos</a>
+              </li>
+              <li>
+                <button class="bg-dark text-light my-1" onclick="openPopup()">Order Now</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="index/assets/img/Coming SoOn.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="index/assets/img/hero1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="index/assets/img/hero2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="index/assets/img/hero3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="index/assets/img/hero4.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <div id="popup" class="popup">
+      <div class="container w-75 bg-light mt-5">
+        <span onclick="closePopup()" style="float: right; cursor: pointer">&times;</span>
+        <table class="tbl w-100 text-center">
+          <tr class="top-row">
+            <td>Kolom 1</td>
+            <td>Kolom 2</td>
+            <td>Kolom 3</td>
+          </tr>
+          <tr class="top-row border-bottom">
+            <td></td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+          <tr class="border-bottom">
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+            <td>Baris 11</td>
+          </tr>
+        </table>
+        <br />
+        <!-- Tambahan dua tombol di bawah tabel -->
+        <div class="text-end">
+          <button class="mb-3 bg-dark text-light">Order Now</button>
+          <button class="mb-3 bg-dark text-light">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center p-3 fixed-bottom">
+      <a href="" class="text-light text-decoration-none">Kelompok 6</a>
+    </footer>
+
+    <script>
+      // Fungsi untuk membuka pop-up dan mengubah latar belakang
+      function openPopup() {
+        document.getElementById("popup").style.display = "block";
+        document.body.classList.add("dark-background");
+      }
+
+      // Fungsi untuk menutup pop-up dan mengembalikan latar belakang
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+        document.body.classList.remove("dark-background");
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

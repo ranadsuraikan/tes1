@@ -1,0 +1,32 @@
+.gradient-bg {
+  background: linear-gradient(to right, hsl(0, 1%, 47%), #ffc371);
+  color: white;
+}
+
+#kiri {
+  height: 300px;
+  border-radius: 20px;
+}
+
+#kanan {
+  height: 400px;
+  border-radius: 20px;
+}
+
+#judul {
+  background-color: #b67a4f;
+  margin-left: 38px;
+  width: 20px;
+}
+
+.warna-kami {
+  color: #b67a4f;
+}
+
+#b1 {
+  background-color: #fdf8e4;
+}
+
+#btn-card-3 {
+  background-color: #b67a4f;
+}

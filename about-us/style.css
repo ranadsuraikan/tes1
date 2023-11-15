@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#judul {
+  background-color: #b67a4f;
+  margin-left: 38px;
+  width: 20px;
+}
+
+.warna-kami {
+  color: #b67a4f;
+}
+
+body {
+  min-height: 100%;
+}
+.gradient-bg {
+  background: linear-gradient(to right, hsl(0, 1%, 47%), #ffc371);
+  color: white;
+}
+.about-1 {
+  margin: 30px;
+  padding: 5px;
+}
+.about-1 h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+.about-1 p {
+  margin-top: 50px;
+  text-align: center;
+  padding: 3px;
+  color: black;
+  font-size: 18px;
+}
+
+.about-item {
+  margin-bottom: 40%;
+  margin-top: 20px;
+  background-color: #fdf8e4;
+  padding: 80px 30px;
+}
+.about-item i {
+  font-size: 43px;
+  margin: 0;
+}
+.about-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.about-item hr {
+  width: 46px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: none;
+}
+.about-item p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.about-item:hover {
+  background-color: #b67a4f;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+.about-item:hover hr {
+  background-color: #fff;
+}
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  transition: all 400ms ease-in-out;
+}
+.about-3 {
+  margin: 30px;
+  padding: 20px;
+}
+
+#textkami {
+  background-color: #fdf8e4;
+}
+
+.about-3 h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Executive Team */
+.wrapper {
+  background: #fdf8e4;
+  width: 580px;
+  border-radius: 15px;
+  padding: 20px;
+
+  margin-bottom: 11%;
+}
+
+h2 {
+  text-align: center;
+}
+hr {
+  width: 100px;
+  margin: 10px auto;
+}
+.members {
+  display: flex;
+  justify-content: center;
+}
+.team {
+  margin: 8px;
+  padding: 35px;
+}
+.wrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+h4,
+p {
+  text-align: center;
+  font-size: 12px;
+  margin: 7px;
+}
+
+footer p {
+  color: black;
+}
